@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    overflow: hidden;
+}
+ .top{
+    background-color: gray;
+    width: 100%;
+    overflow: hidden;
+    padding: 5px 20px;
+}
+.top h1{
+    color: white;
+    float: left;
+    width: 70%;
+
+}
+.top h2{
+    color: white;
+    float: right;
+    margin-right: 100px;
+    padding: 5px;
+    
+}
+
+.middle-top{
+    overflow: hidden;
+    width: 100%;
+    margin: 20px 0;
+}
+.left-middle-logo{
+    width: 60%;
+    float: left;
+    
+}
+.left-middle-logo img{
+    width: 100px;
+    float: left;
+}
+.logo-right-text{
+    padding: 20px 10px;
+    overflow: hidden;
+}
+
+.right-middle-content{
+    overflow: hidden;
+    float: right;
+    width: 40%;
+
+}
+.right-middle-content img{
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.right-middle-content input{
+    margin: 30px 10px;
+    padding: 5px;
+    float: left;
+    
+}
+.right-middle-content input:first-child{
+    width: 300px;
+    
+}
+nav ul{
+
+    background-color: rgb(184, 184, 184);
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    padding: 10px 0;
+    border-left: 1px solid rgb(101, 123, 126);
+    
+}
+/* nav ul li:last-child{
+    border-right: 1px solid rgb(101, 123, 126);
+} */
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 11px;
+}
+nav ul li:hover{
+
+    background-color: rgb(39, 39, 39);
+}
+nav ul li a:hover{
+    color: white;
+}
+
+
+
+/*Body Part*/
+.body-area{
+    width: 100%;
+    overflow: hidden;
+}
+.left{
+    width: 70%;
+    float: left;
+}
+.image-part img{
+    width: 93%;
+    height: 300px;
+    margin-top: 20px;
+}
+.content-part{
+    margin:40px 0 ;
+    width: 100%;
+}
+.left-content{
+    width: 90%;
+    margin: auto;
+    float: left;
+    padding: 0 22px;
+    margin: 50px 0;
+}
+.left-content h1{
+    margin-bottom: 20px;
+}
+.left-content p{
+    line-height: 2;
+
+}
+.right-content{
+    width: 49%;
+    float: right;
+    padding: 0 22px;
+}
+.right-content h1{
+    margin-bottom: 20px;
+}
+.right-content p{
+    text-decoration: underline;
+    line-height: 2;
+}
+
+
+
+.right{
+    overflow: hidden;
+    /* width: 30%;
+    background-color: rgb(209, 207, 207); */
+}
+.right h1{
+    width: 90%;
+    margin:50px  auto;
+
+}
+.lorem{
+    width: 95%;
+    margin: auto;
+}
+.lorem p{
+    line-height: 2;
+    border-bottom: 1px dotted black;
+}
+
+/*Footer Part*/
+
+footer{
+    background-color: gray;
+    overflow: hidden;
+    margin-top: 100px;
+}
+.left-footer{
+    float: left;
+
+}
+.left-footer p{
+    float: left;
+    padding: 15px ;
+}
+.right-footer{
+    float: right;
+}
+.right-footer{
+    margin-right: 20px;
+    padding: 15px;
+}
